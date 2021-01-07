@@ -6,6 +6,7 @@ import Root from "./frontend/components/root";
 import App from "./frontend/components/app";
 
 // import { receiveTodo, receiveTodos } from "./frontend/actions/todo_actions" 
+import {allTodos} from "./frontend/reducers/selectors";
 
 document.addEventListener("DOMContentLoaded", ()=>{
     
@@ -28,9 +29,11 @@ document.addEventListener("DOMContentLoaded", ()=>{
     //     done: false
     //   } ]
     //   window .newTodos = newTodos;
-    // window.store = store;
+    window.store = store;
     // window.receiveTodo = receiveTodo;
     // window.receiveTodos = receiveTodos;
+
+    window.allTodos = allTodos;
       
     ReactDOM.render(
         <Root store={store} />,
