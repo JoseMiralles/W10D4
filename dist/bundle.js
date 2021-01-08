@@ -210,11 +210,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _todo_form__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./todo_form */ "./frontend/components/todo_list/todo_form.jsx");
 
 
-
-
-var mapStateToProps = function mapStateToProps(state) {
-  return {};
-};
+ // const mapStateToProps = state => {
+//     return {};
+// };
 
 var mapDispatchToProps = function mapDispatchToProps(dispatch) {
   return {
@@ -224,7 +222,7 @@ var mapDispatchToProps = function mapDispatchToProps(dispatch) {
   };
 };
 
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,react_redux__WEBPACK_IMPORTED_MODULE_0__.connect)(mapStateToProps, mapDispatchToProps)(_todo_form__WEBPACK_IMPORTED_MODULE_2__.default));
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,react_redux__WEBPACK_IMPORTED_MODULE_0__.connect)(null, mapDispatchToProps)(_todo_form__WEBPACK_IMPORTED_MODULE_2__.default));
 
 /***/ }),
 
