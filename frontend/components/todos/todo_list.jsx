@@ -1,7 +1,7 @@
 import React from "react";
 
 import TodoListItem from "./todo_list_item";
-import TodoForm from "../todo_list/todo_form";
+import TodoFormContainer from "./todo_list_container";
 
 export default (props) => {
 
@@ -11,7 +11,7 @@ export default (props) => {
 
     return (
         <>
-            <TodoForm />
+            <TodoFormContainer/>
             <ul>
                 {mappedItems}
             </ul>
