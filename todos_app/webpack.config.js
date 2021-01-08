@@ -1,10 +1,10 @@
 const path = require("path");
 
 module.exports = {
-    entry: "./todo_redux.jsx",
+    entry: "./frontend/todo_redux.jsx",
     output: {
         // path: "/",
-        filename: "bundle.js"
+        filename: "./app/assests/javascripts/bundle.js"
     },
     module: {
         rules: [{
