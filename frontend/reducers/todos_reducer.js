@@ -27,6 +27,7 @@ const todosReducer = (state = initialState, action) => {
         case RECEIVE_TODO:
             newState = {};
             Object.assign(newState, state);
+            if (!action.todo.id) action.todo.id = new Date().getTime();
             newState[action.todo.id] = action.todo;
             return newState;
         break;

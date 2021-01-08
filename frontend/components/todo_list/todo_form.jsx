@@ -3,7 +3,6 @@ import React from "react";
 export default class TodoForm extends React.Component{
 
     constructor(props){
-        debugger
         super(props);
 
         this.state = {
@@ -34,7 +33,6 @@ export default class TodoForm extends React.Component{
     }
 
     render(){
-        debugger
         return (
             <>
                 <form action="">
